@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    background: radial-gradient( #ffffff, black);
+    font-size: medium;
+  }
+
+#container1{
+    background-color: rgba(238, 238, 238, 0.507);
+    margin: 6px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black ;
+    object-position: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 25%;
+}
+
+
+#botaoCalcular{
+    object-position: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;  
+    text-align: center;
+    margin-left: 25%;
+    font-size: medium;
+}
+button{
+    font-size: medium;
+}
+
+#seletorOperação{
+    font-size: medium;
+}
