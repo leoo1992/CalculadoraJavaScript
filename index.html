@@ -1,51 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap CSS & JS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsiveHorizontal.css" />
+    <link rel="stylesheet" href="./responsiveVertical.css" />
 
-  <!-- Bootstrap CSS & JS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <!-- CSS-->
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./responsiveHorizontal.css">
-  <link rel="stylesheet" href="./responsiveVertical.css">
-  
-
-  <title>Calculadora JS</title>
-  <!-- SCRIPT JS-->
-  <script src="./script.js"></script>
-</head>
-<body>
-  <!-- CONTAINER-->
-  <div
-    class=" d-flex justify-content-center text-center align-middle content position-absolute top-50 start-50 translate-middle">
-    <div id="container1"
-      class="col justify-content-center text-center center position-absolute top-50 start-50 translate-middle">
-      <b>Calculadora</b>
-      <div id="row1" class="row-1 input-group">
-        <b>Valor 1:</b><input class="m-1 text-center shadow-sm rounded" type="number" step="any" id="inputValorA"
-          placeholder="Digite o valor 1" value="">
-        <b>Valor 2:</b><input class="m-1 text-center shadow-sm rounded" type="number" step="any" id="inputValorB"
-          placeholder="Digite o valor 2" value="">
-        <b>Selecione o Operador:</b><button id="dropdown" class="m-1 btn btn-dark dropdown-toggle text-center" type="button"
-          data-bs-toggle="dropdown" aria-expanded="true">
-          Operador Matemático
-        </button>
-        <ul class="dropdown-menu text-center" aria-labelledby="dropdown">
-          <li><a class="dropdown-item" href="#" onclick="selecionarOperacao('Adição')">Adição</a></li>
-          <li><a class="dropdown-item" href="#" onclick="selecionarOperacao('Subtração')">Subtração</a></li>
-          <li><a class="dropdown-item" href="#" onclick="selecionarOperacao('Multiplicação')">Multiplicação</a></li>
-          <li><a class="dropdown-item" href="#" onclick="selecionarOperacao('Divisão')">Divisão</a></li>
-        </ul>
-        <button id="botaoCalcular" class="btn btn-dark m-1 shadow-sm rounded" type="button" onclick="
+    <title>Calculadora JS</title>
+    <!-- SCRIPT JS-->
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- CONTAINER-->
+    <div
+      class="d-flex justify-content-center text-center align-middle content position-absolute top-50 start-50 translate-middle"
+    >
+      <div
+        id="container1"
+        class="col justify-content-center text-center center position-absolute top-50 start-50 translate-middle"
+      >
+        <b>Calculadora</b>
+        <div id="row1" class="row-1 input-group">
+          <b>Valor 1:</b
+          ><input
+            class="m-1 text-center shadow-sm rounded"
+            type="number"
+            step="any"
+            id="inputValorA"
+            placeholder="Digite o valor 1"
+            value=""
+          />
+          <b>Valor 2:</b
+          ><input
+            class="m-1 text-center shadow-sm rounded"
+            type="number"
+            step="any"
+            id="inputValorB"
+            placeholder="Digite o valor 2"
+            value=""
+          />
+          <b>Selecione o Operador:</b
+          ><button
+            id="dropdown"
+            class="m-1 btn btn-dark dropdown-toggle text-center"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="true"
+          >
+            Operador Matemático
+          </button>
+          <ul class="dropdown-menu text-center" aria-labelledby="dropdown">
+            <li>
+              <a
+                class="dropdown-item"
+                href="#"
+                onclick="selecionarOperacao('Adição')"
+                >Adição</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="#"
+                onclick="selecionarOperacao('Subtração')"
+                >Subtração</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="#"
+                onclick="selecionarOperacao('Multiplicação')"
+                >Multiplicação</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="#"
+                onclick="selecionarOperacao('Divisão')"
+                >Divisão</a
+              >
+            </li>
+          </ul>
+          <button
+            id="botaoCalcular"
+            class="btn btn-dark m-1 shadow-sm rounded"
+            type="button"
+            onclick="
           switch (document.getElementById('dropdown').innerText) {
             case 'Adição':
               adicionar();
@@ -59,11 +118,13 @@
             case 'Divisão':
               dividir();
               break;
-            };">Calcular
-        </button>
+            };"
+          >
+            Calcular
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- FIM HTML BODY -->
-</body>
+    <!-- FIM HTML BODY -->
+  </body>
 </html>

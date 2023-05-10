@@ -1,210 +1,215 @@
 @media (max-width: 200px) {
-    html, body {
-      font-size: 6px;
-      padding: 0px;
-      margin: 0px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }  
-    #container1, #row1{
-      font-size: 6px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-     #botaoCalcular {
-        font-size: 6px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-    }
-    button {
-      font-size: 6px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-      }
-      #seletorOperação {
-        font-size: 6px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-      }
+  html,
+  body {
+    font-size: 6px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+  #container1,
+  #row1 {
+    font-size: 6px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #botaoCalcular {
+    font-size: 6px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+  }
+  button {
+    font-size: 6px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+  }
+  #seletorOperação {
+    font-size: 6px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+  }
+}
 
 @media (max-width: 232px) {
-    html, body {
-      font-size: 7px;
-      padding: 0%;
-      margin: 0px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }  
-    #container1, #row1{
-        font-size: 7px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-     #botaoCalcular {
-        font-size: 7px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-    }
-    button {
-        font-size: 7px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-      }
-      #seletorOperação {
-        font-size: 7px;
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        width: auto;
-      }
+  html,
+  body {
+    font-size: 7px;
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-   
-  @media (max-width: 400px) {
-    html, body {
-        font-size: small;
-        padding: 0%;
-        margin: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }  
-      #container1, #row1{
-          font-size: small;
-          margin: 0px;
-          padding: auto;
-          height: auto;
-          width: auto;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-      }
-       #botaoCalcular {
-          font-size: small;
-          margin: 0px;
-          padding: auto;
-          height: auto;
-          width: auto;
-      }
-      button {
-          font-size: small;
-          margin: 0px;
-          padding: auto;
-          height: auto;
-          width: auto;
-        }
-        #seletorOperação {
-          font-size: small;
-          margin: auto;
-          padding: auto;
-          height: auto;
-          width: auto;
-        }
+  #container1,
+  #row1 {
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
-  @media (max-width: 576px) {
-    html, body {
-        font-size: small;
-        padding: 0%;
-        margin: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }  
-      #container1, #row1{
-          font-size: small;
-          margin: 0px;
-          padding: auto;
-          height: auto;
-          width: auto;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-      }
-       #botaoCalcular {
-          font-size: small;
-          margin: 0px;
-          padding: auto;
-          height: auto;
-          width: auto;
-      }
-      button {
-          font-size: small;
-          margin: 0px;
-          padding: auto;
-          height: auto;
-          width: auto;
-        }
-        #seletorOperação {
-          font-size: small;
-          margin: auto;
-          padding: auto;
-          height: auto;
-          width: auto;
-        }
+  #botaoCalcular {
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
   }
-
-  @media (max-width: 768px) {
-    html, body {
-        font-size: small;
-        margin: auto;
-        padding: auto;
-      }  
-      #container1{
-          font-size: small;
-          margin: auto;
-          padding: auto;
-          height: auto;
-          width: auto;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-      }
-       #botaoCalcular {
-          font-size: small;
-          margin: auto;
-          padding: auto;
-          height: auto;
-          width: auto;
-                }
-      button {
-          font-size: small;
-          margin: auto;
-          padding: auto;
-          height: auto;
-          width: auto;
-                  }
-        #seletorOperação {
-          font-size: small;
-          margin: auto;
-          padding: auto;
-          height: auto;
-          width: auto;
-        }
+  button {
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
   }
-  
+  #seletorOperação {
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+  }
+}
 
+@media (max-width: 400px) {
+  html,
+  body {
+    font-size: small;
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #container1,
+  #row1 {
+    font-size: small;
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #botaoCalcular {
+    font-size: small;
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  button {
+    font-size: small;
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  #seletorOperação {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+}
 
-  
+@media (max-width: 576px) {
+  html,
+  body {
+    font-size: small;
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #container1,
+  #row1 {
+    font-size: small;
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #botaoCalcular {
+    font-size: small;
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  button {
+    font-size: small;
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  #seletorOperação {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+  }
+  #container1 {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #botaoCalcular {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  button {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  #seletorOperação {
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+}

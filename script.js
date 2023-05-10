@@ -22,8 +22,8 @@ function multiplicar() {
 
 function dividir() {
   const valorB = atribuirValor("inputValorB");
-  if (valorB == 0) {
-    alert('Valor 2 deve ser diferente de zero');
+  if (valorB === 0) {
+    alert("Valor 2 deve ser diferente de zero");
   } else {
     resultado = atribuirValor("inputValorA") / valorB;
     alert(textoResult + resultado);
@@ -34,4 +34,3 @@ function selecionarOperacao(nomeOperacao) {
   var dropdownButton = document.getElementById("dropdown");
   dropdownButton.innerText = nomeOperacao;
 }
-
