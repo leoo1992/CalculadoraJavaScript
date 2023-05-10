@@ -1,36 +1,54 @@
-html, body{
+html, body {
     height: 100%;
-    background: radial-gradient( #ffffff, black);
+    background: radial-gradient(#ffffff, black);
     font-size: medium;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
-#container1{
+  
+  #container1 {
+    width: auto;
+    height: auto;
     background-color: rgba(238, 238, 238, 0.507);
-    margin: 6px;
+    margin: 2%;
     padding: 10px;
-    border-radius: 10px;
-    border: 1px solid black ;
+    border-radius: 3%;
+    border: 1px solid black;
     object-position: center;
     align-items: center;
     align-self: center;
     align-content: center;
     margin-left: 25%;
-}
-
-
-#botaoCalcular{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  #botaoCalcular {
     object-position: center;
     align-items: center;
     align-self: center;
-    align-content: center;  
+    align-content: center;
     text-align: center;
     margin-left: 25%;
     font-size: medium;
-}
-button{
+    width: auto;
+    height: auto;
+    
+  }
+  
+  button {
     font-size: medium;
-}
-
-#seletorOperação{
+    width: auto;
+    height: auto;
+  }
+  
+  #seletorOperação {
     font-size: medium;
-}
+    width: auto;
+    height: auto;
+    
+  }
