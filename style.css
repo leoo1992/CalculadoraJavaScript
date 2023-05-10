@@ -41,12 +41,17 @@ body {
 
 button {
   font-size: medium;
-  width: auto;
-  height: auto;
 }
 
 #seletorOperação {
   font-size: medium;
   width: auto;
   height: auto;
+}
+#op {
+  margin-left: 1px;
+  font-size: small;
+}
+#multi{
+  font-size: small;
 }
